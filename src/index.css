@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Theme Light */
+:root{
+    /* Fondos */
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-secondary: #f1f5f9;
+
+  /* Textos */
+  --foreground: #0f172a;
+  --foreground-secondary: #475569;
+  --foreground-muted: #64748b;
+
+  /* Marca */
+  --primary: #10b981;
+  --primary-hover: #059669;
+
+  /* UI */
+  --border: #e2e8f0;
+}
+
+/* Theme Dark */
+.dark{
+     /* Fondos */
+  --background: #020617;
+  --surface: #0f172a;
+  --surface-secondary: #1e293b;
+
+  /* Textos */
+  --foreground: #f8fafc;
+  --foreground-secondary: #cbd5e1;
+  --foreground-muted: #94a3b8;
+
+  /* Marca */
+  --primary: #34d399;
+  --primary-hover: #10b981;
+
+  /* UI */
+  --border: #334155;
+    
+}
+
