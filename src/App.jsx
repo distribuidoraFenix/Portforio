@@ -8,6 +8,10 @@ import ButtonTheme from './components/ui/ButtonTheme';
 import Hero from './components/sections/Hero';
 import Projects from './components/sections/Projects';
 import ContactForm from './components/sections/ContactForm';
+import AboutMe from './components/sections/AboutMe';
+import Technologies from './components/sections/Technologies';
+import Experience from './components/sections/Experience';
+import SuccessCases from './components/sections/SuccessCases';
 
 // Data
 import projects from './data/projects';
@@ -36,13 +40,25 @@ function App() {
       {/* Botón flotante del Tema*/}
         <ButtonTheme isDark={isDark} toggleTheme={toggleTheme} />
 
-      {/* 1. SECCIÓN HERO */}
+      {/* SECCIÓN HERO */}
         <Hero />
-        
-      {/* 2. SECCIÓN PROYECTOS */}
+
+      {/* SECCIÓN ABOUT ME */}
+      <AboutMe />
+
+      {/* SECCIÓN CV - EXPERIENCIA */}
+      <Experience />
+
+      {/* SECCIÓN PROYECTOS */}
       <Projects projects ={projects} />
 
-      {/* 3. SECCIÓN CONTACTO */}
+      {/* SECCIÓN SUCCESS CASES*/}
+      <SuccessCases />
+
+      {/* SECCIÓN TECHNOLOGIES */}
+      <Technologies />
+
+      {/* SECCIÓN CONTACTO */}
       <ContactForm  />
 
       {/* FOOTER */}
