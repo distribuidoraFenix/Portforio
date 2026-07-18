@@ -15,6 +15,9 @@ import SuccessCases from './components/sections/SuccessCases';
 
 // Data
 import projects from './data/projects';
+import experiences from './data/experiences';
+import successCases from './data/successcases';
+import technologies from './data/technologies';
 
 function App() {
   // 1. Estado para el modo oscuro con lectura de LocalStorage y sistema
@@ -47,16 +50,16 @@ function App() {
       <AboutMe />
 
       {/* SECCIÓN CV - EXPERIENCIA */}
-      <Experience />
+      <Experience  experiences={experiences}/>
 
       {/* SECCIÓN PROYECTOS */}
       <Projects projects ={projects} />
 
       {/* SECCIÓN SUCCESS CASES*/}
-      <SuccessCases />
+      <SuccessCases successCases={successCases} />
 
       {/* SECCIÓN TECHNOLOGIES */}
-      <Technologies />
+      <Technologies technologies={technologies} />
 
       {/* SECCIÓN CONTACTO */}
       <ContactForm  />
