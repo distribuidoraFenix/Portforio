@@ -25,7 +25,8 @@ export default function Projects({ projects }){
                     {tag}
                   </span>
                 ))}
-              </div>
+              </div>    
+              <h6 className="text-sm  font-bold mb-2  mt-4">* {project.disponibilidad}</h6>
             </article>
           ))}
         </div>

@@ -1,17 +1,17 @@
   const experiences = [
     {
-      empresa: "Empresa ABC",
-      cargo: "Especialista en Automatización",
-      periodo: "2024 - Actualidad",
+      empresa: "Distribuidora Fenix",
+      cargo: "Jefe de Personal",
+      periodo: "12/2025 - 05/2026",
       descripcion:
         "Automatización de procesos, desarrollo de aplicaciones internas y mejora continua."
     },
     {
-      empresa: "Empresa XYZ",
-      cargo: "Analista de Procesos",
-      periodo: "2022 - 2024",
+      empresa: "Distribuidora Fenix",
+      cargo: "Ejecutivo de ventas",
+      periodo: "12/2024 - 12/2025",
       descripcion:
-        "Optimización de procesos, dashboards en Power BI y análisis de indicadores."
+        "Optimización de procesos de ventas, creación de una aplicación web para gestión de clientes."
     }
   ];
 

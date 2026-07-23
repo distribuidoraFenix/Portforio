@@ -17,6 +17,8 @@
   /* Marca */
   --primary: #10b981;
   --primary-hover: #059669;
+  --warning: #f59b13;
+  --warning-hover: #eab308;
 
   /* UI */
   --border: #e2e8f0;
@@ -37,6 +39,8 @@
   /* Marca */
   --primary: #34d399;
   --primary-hover: #10b981;
+   --warning: #f59b13;
+  --warning-hover: #eab308;
 
   /* UI */
   --border: #334155;

@@ -48,10 +48,7 @@ function App() {
 
       {/* SECCIÓN ABOUT ME */}
       <AboutMe />
-
-      {/* SECCIÓN CV - EXPERIENCIA */}
-      <Experience  experiences={experiences}/>
-
+      
       {/* SECCIÓN PROYECTOS */}
       <Projects projects ={projects} />
 
@@ -61,12 +58,15 @@ function App() {
       {/* SECCIÓN TECHNOLOGIES */}
       <Technologies technologies={technologies} />
 
+      {/* SECCIÓN CV - EXPERIENCIA */}
+      <Experience  experiences={experiences}/>
+    
       {/* SECCIÓN CONTACTO */}
       <ContactForm  />
 
       {/* FOOTER */}
       <footer className="py-8 text-center text-xs text-gray-400 dark:text-gray-600 border-t border-gray-200 dark:border-gray-900">
-        © {new Date().getFullYear()} Portafolio. Hecho con React & Tailwind.
+        © {new Date().getFullYear()} Portafolio. Hecho con React, JS & Tailwind.
       </footer>
     </main> 
   );
