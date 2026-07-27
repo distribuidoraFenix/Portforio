@@ -6,7 +6,7 @@
 :root{
   /* Fondos */
   --background: theme(color-slate-50);
-  --surface: theme(color-slate-100);
+  --surface: theme(color-gray-200);
 
   /* Textos */
   --foreground: theme(color-gray-950);
@@ -31,11 +31,11 @@
 
   /* UI */
   /* tags*/
-  --surface-primary: --alpha(var(--color-blue-400) / 30%);
-  --foreground-primary: theme(color-blue-700);
+  --surface-primary: --alpha(var(--color-emerald-400) / 30%);
+  --foreground-primary: theme(color-emerald-900);
 
   /* Border sections */
-  --border-section: theme(color-gray-200);
+  --border-section: theme(color-gray-300);
 
 }
 
@@ -44,7 +44,7 @@
 
   /* Fondos */
   --background: theme(color-slate-950);
-  --surface: theme(color-slate-800);
+  --surface: theme(color-slate-900);
 
   /* Textos */
   --foreground: theme(color-slate-50);
@@ -58,7 +58,7 @@
   /* UI */
   /* tags*/
   --surface-primary: --alpha(var(--color-emerald-400) /10%);
-  --foreground-primary: theme(color-emerald-700);
+  --foreground-primary: theme(color-emerald-500);
 
   /* Border sections */
   --border-section: theme(color-gray-800);

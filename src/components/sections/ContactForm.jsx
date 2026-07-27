@@ -7,8 +7,12 @@ export default function ContactForm() {
     <section id="contact" className="py-20 px-6 max-w-xl mx-auto border-t border-gray-200 dark:border-gray-900 scroll-mt-10">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-extrabold sm:text-4xl tracking-tight text-(--foreground)">Hablemos</h2>
-        <p className="mt-3 text-gray-600 dark:text-gray-400">
-          ¿Tienes un proyecto en mente? Escríbeme directamente desde aquí.
+        
+        <p className="mt-3 font-bold text-(--primary)">
+          ¿Tienes un proyecto en mente?
+        </p>
+         <p className="mt-2 font-bold text-(--second)">
+         Escríbeme directamente desde aquí.
         </p>
       </div>
       <form onSubmit={handleSubmit} className="space-y-4">

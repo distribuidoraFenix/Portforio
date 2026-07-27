@@ -11,9 +11,9 @@ export default function AboutMe(){
                 <span className="h-1 w-12 bg-(--primary) rounded-full mt-3"></span>
             </header>
 
-             <section className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center rounded-2xl bg-(--surface)
+             <section className="grid grid-cols-1 md:grid-cols-2  gap-4 items-center rounded-2xl bg-(--surface)
               border border-(--border-section) text-(--foreground-g) p-8">
-                 <figure className="row-span-2  w-80 h-80 mx-auto py-auto overflow-hidden rounded-xl">
+                 <figure className="row-span-1 sm:row-span-2 w-80 h-80 mx-auto py-auto overflow-hidden rounded-xl">
                     <img 
                         src={ftAdrianRiveros} 
                         alt="Fotografía de Adrian Riveros Vallejos" 

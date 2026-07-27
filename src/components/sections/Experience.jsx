@@ -7,11 +7,11 @@ export default function Experience({experiences}) {
       className="py-20 px-6 max-w-6xl mx-auto scroll-mt-10"
     >
       <div className="flex flex-col items-center mb-12">
-        <h2 className="text-3xl font-extrabold sm:text-4xl tracking-tight">
+        <h2 className="text-3xl font-extrabold sm:text-4xl tracking-tight text-(--foreground)">
           Mi Experiencia
         </h2>
 
-        <div className="h-1 w-12 bg-emerald-400 rounded-full mt-3"></div>
+         <div className="h-1 w-12 bg-(--primary) rounded-full mt-3"></div>
       </div>
 
       {/* Desktop */}
@@ -20,23 +20,25 @@ export default function Experience({experiences}) {
         {experiences.map((exp) => (
           <article
             key={exp.empresa}
-            className="flex flex-col justify-between p-6 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+           className="flex flex-col justify-between px-4 mx-auto  p-6 rounded-2xl
+              bg-(--surface) border border-(--border-section) min-h-80
+               shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
           >
             <div>
 
-              <span className="text-xs text-emerald-500 font-semibold">
+              <span className="text-sm text-(--primary) font-bold">
                 {exp.periodo}
               </span>
 
-              <h3 className="text-xl font-bold mt-2">
+              <h3 className="text-xl font-bold mt-2 text-(--foreground)">
                 {exp.cargo}
               </h3>
 
-              <p className="font-medium text-gray-500 mt-1">
+              <p className="font-medium text-(--second) mt-1">
                 {exp.empresa}
               </p>
 
-              <p className="mt-4 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+              <p className="mt-4 text-sm text-(--foreground-g) font-semibold leading-relaxed">
                 {exp.descripcion}
               </p>
 
@@ -46,17 +48,17 @@ export default function Experience({experiences}) {
 
         <a
           href="/cv"
-          className="rounded-2xl border-2 border-dashed border-emerald-400 flex flex-col justify-center items-center hover:bg-emerald-400/5 transition-all duration-300 group"
+          className="rounded-2xl border-2 border-dashed border-(--primary) flex flex-col justify-center items-center dark:hover:bg-emerald-400/20 hover:bg-emerald-300/50 transition-all duration-300 group"
         >
-          <span className="text-6xl font-light text-emerald-500 group-hover:scale-110 transition-transform">
+          <span className="text-6xl font-light text-(--primary) group-hover:scale-150 transition-transform">
             +
           </span>
 
-          <p className="mt-3 font-semibold">
+          <p className="mt-3 font-semibold text-(--second)">
             Ver experiencia completa
           </p>
 
-          <p className="text-sm text-gray-500 mt-2">
+          <p className="text-sm text-(--foreground-g) mt-2">
             CV Digital
           </p>
         </a>
@@ -66,21 +68,21 @@ export default function Experience({experiences}) {
       {/* Mobile */}
       <div className="md:hidden space-y-6">
 
-        <article className="p-6 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <article className="p-6 rounded-2xl bg-(--surface) border border-(--border-section) shadow-sm min-h-80">
 
-          <span className="text-xs text-emerald-500 font-semibold">
+          <span className="text-sm text-(--primary) font-bold">
             {experiences[0].periodo}
           </span>
 
-          <h3 className="text-xl font-bold mt-2">
+          <h3 className="text-xl font-bold mt-2 text-(--foreground)">
             {experiences[0].cargo}
           </h3>
 
-          <p className="font-medium text-gray-500 mt-1">
+          <p className="font-medium text-(--second) mt-1">
             {experiences[0].empresa}
           </p>
 
-          <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
+          <p className="mt-4 text-sm text-(--foreground-g) font-semibold ">
             {experiences[0].descripcion}
           </p>
 
@@ -88,7 +90,7 @@ export default function Experience({experiences}) {
 
         <a
           href="/cv"
-          className="block text-center py-4 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-slate-900 font-semibold transition-all"
+          className="block text-center py-4 rounded-xl bg-(--primary) hover:bg-(--primary-hover) text-(--foreground) font-semibold transition-all"
         >
           Explorar más experiencia →
         </a>
