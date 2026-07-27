@@ -4,46 +4,63 @@
 
 /* Theme Light */
 :root{
-    /* Fondos */
-  --background: #f8fafc;
-  --surface: #ffffff;
-  --surface-secondary: #f1f5f9;
+  /* Fondos */
+  --background: theme(color-slate-50);
+  --surface: theme(color-slate-100);
 
   /* Textos */
-  --foreground: #0f172a;
-  --foreground-secondary: #475569;
-  --foreground-muted: #64748b;
-
+  --foreground: theme(color-gray-950);
+  --foreground-w: theme(color-slate-50);
+  --foreground-g: theme(color-slate-600);
+ 
   /* Marca */
-  --primary: #10b981;
-  --primary-hover: #059669;
-  --warning: #f59b13;
-  --warning-hover: #eab308;
+  --primary: theme(color-emerald-700);
+  --second: theme(color-blue-700);
+  --secondary: theme(color-gray-500);
+  --warning: theme(color-amber-500);
+  --danger: theme(color-red-500);
+  --success: theme(color-green-500);
+
+  /* Marca Hover */
+  --primary-hover: theme(color-emerald-600);
+  --second-hover: theme(color-blue-600);
+  --secondary-hover: theme(color-gray-600);
+  --warning-hover: theme(color-amber-600);
+  --danger-hover: theme(color-red-600);
+  --success-hover:theme(color-green-500);
 
   /* UI */
-  --border: #e2e8f0;
+  /* tags*/
+  --surface-primary: --alpha(var(--color-blue-400) / 30%);
+  --foreground-primary: theme(color-blue-700);
+
+  /* Border sections */
+  --border-section: theme(color-gray-200);
+
 }
 
 /* Theme Dark */
 .dark{
-     /* Fondos */
-  --background: #020617;
-  --surface: #0f172a;
-  --surface-secondary: #1e293b;
+
+  /* Fondos */
+  --background: theme(color-slate-950);
+  --surface: theme(color-slate-800);
 
   /* Textos */
-  --foreground: #f8fafc;
-  --foreground-secondary: #cbd5e1;
-  --foreground-muted: #94a3b8;
+  --foreground: theme(color-slate-50);
+  --foreground-w: theme(color-slate-950);
+  --foreground-g: theme(color-slate-400);
 
   /* Marca */
-  --primary: #34d399;
-  --primary-hover: #10b981;
-   --warning: #f59b13;
-  --warning-hover: #eab308;
+  --primary: theme(color-emerald-500);
+  --second: theme(color-blue-500);
 
   /* UI */
-  --border: #334155;
-    
+  /* tags*/
+  --surface-primary: --alpha(var(--color-emerald-400) /10%);
+  --foreground-primary: theme(color-emerald-700);
+
+  /* Border sections */
+  --border-section: theme(color-gray-800);
 }
 

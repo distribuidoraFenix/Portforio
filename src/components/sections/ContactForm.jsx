@@ -4,7 +4,7 @@ export default function ContactForm() {
   const { form, enviado, handleChange, handleSubmit } = useContactForm();
 
   return (
-    <section id="contacto" className="py-20 px-6 max-w-xl mx-auto border-t border-gray-200 dark:border-gray-900 scroll-mt-10">
+    <section id="contact" className="py-20 px-6 max-w-xl mx-auto border-t border-gray-200 dark:border-gray-900 scroll-mt-10">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-extrabold sm:text-4xl tracking-tight text-(--foreground)">Hablemos</h2>
         <p className="mt-3 text-gray-600 dark:text-gray-400">

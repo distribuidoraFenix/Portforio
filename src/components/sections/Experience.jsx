@@ -3,7 +3,7 @@ export default function Experience({experiences}) {
 
   return (
     <section
-      id="experiencia"
+      id="experience"
       className="py-20 px-6 max-w-6xl mx-auto scroll-mt-10"
     >
       <div className="flex flex-col items-center mb-12">
