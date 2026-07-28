@@ -1,36 +1,18 @@
   const technologies = [
-    {
-      nombre: "React",
-      descripcion: "Desarrollo de interfaces modernas y componentes reutilizables."
-    },
-    {
-      nombre: "JavaScript",
-      descripcion: "Programación moderna ES6+, manipulación del DOM y APIs."
-    },
-    {
-      nombre: "Tailwind CSS",
-      descripcion: "Diseño rápido mediante utilidades y componentes responsive."
-    },
-    {
-      nombre: "Node.js",
-      descripcion: "Creación de servicios y aplicaciones del lado del servidor."
-    },
-    {
-      nombre: "Python",
-      descripcion: "Automatización de procesos, scripts y análisis de datos."
-    },
-    {
-      nombre: "SQL Server",
-      descripcion: "Diseño, consultas y optimización de bases de datos."
-    },
-    {
-      nombre: "Power BI",
-      descripcion: "Dashboards, indicadores y análisis de información."
-    },
-    {
-      nombre: "Git & GitHub",
-      descripcion: "Control de versiones y trabajo colaborativo."
-    }
+    { name: "HTML", iconName: "html5" },
+    { name: "CSS", iconName: "css3" },
+    { name: "JavaScript", iconName: "js" },
+    { name: "NPM", iconName: "npm2" },
+    { name: "Git", iconName: "git" },
+    { name: "GitHub", iconName: "github" },
+    { name: "Tailwindcss", iconName: "tailwindcss" },
+    { name: "React", iconName: "react" },
+    { name: "Node.js", iconName: "nodejs" },
+    { name: "TypeScript", iconName: "typescript" },
+    { name: "PostgresSQL", iconName: "postgresql" },
+    { name: "SupaBase", iconName: "supabase" },
+    { name: "Vite", iconName: "vitejs" },
+    { name: "Vercel", iconName: "vercel" },
   ];
 
-  export default technologies
+  export default technologies; 

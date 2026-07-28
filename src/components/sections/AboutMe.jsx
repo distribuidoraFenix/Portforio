@@ -1,4 +1,4 @@
-import ftAdrianRiveros from "../../assets/ft_adrian_riveros.webp";
+import ftAdrianRiveros from "../../assets/pictures/ft_adrian_riveros.webp";
 
 export default function AboutMe(){
     return(
@@ -11,9 +11,9 @@ export default function AboutMe(){
                 <span className="h-1 w-12 bg-(--primary) rounded-full mt-3"></span>
             </header>
 
-             <section className="grid grid-cols-1 md:grid-cols-2  gap-4 items-center rounded-2xl bg-(--surface)
+             <section className="flex flex-col md:grid md:grid-cols-2  md:gap-4 md:items-center rounded-2xl bg-(--surface)
               border border-(--border-section) text-(--foreground-g) p-8">
-                 <figure className="row-span-1 sm:row-span-2 w-80 h-80 mx-auto py-auto overflow-hidden rounded-xl">
+                 <figure className="row-span-1 sm:row-span-2 w-80 h-80 mx-auto py-auto overflow-hidden rounded-xl mb-4">
                     <img 
                         src={ftAdrianRiveros} 
                         alt="Fotografía de Adrian Riveros Vallejos" 
@@ -21,18 +21,18 @@ export default function AboutMe(){
                     />
                 </figure>
                
-                     <p className="leading-relaxed ">
+                     <p className="leading-relaxed mb-2 " >
                     Durante más de 22 años he trabajado en áreas comerciales, administrativas y operativas, 
                     donde aprendí que detrás de cada proceso existen oportunidades de mejora.
                     </p>
-                    <p className=" leading-relaxed ">
+                    <p className=" leading-relaxed mb-2">
                         Esa forma de entender el negocio despertó mi interés por desarrollar soluciones tecnológicas 
                         que simplificaran el trabajo diario. Comencé automatizando tareas con Excel y VBA, y con el tiempo
                         evolucioné hacia el desarrollo de aplicaciones web con la tecnología de base HTML,
                         CSS, JavaScript, posteriormente para aplicativos mas robustos utilizando tecnologías como React, Next.js, 
                         TypeScript.
                     </p>
-                    <p className="col-span-2 leading-relaxed ">
+                    <p className="col-span-2 leading-relaxed mb-2 ">
                         Más que desarrollar software, disfruto comprender cómo funciona una organización, identificar sus necesidades
                         y diseñar herramientas que aporten eficiencia, reduzcan errores y generen resultados medibles.
                     </p>

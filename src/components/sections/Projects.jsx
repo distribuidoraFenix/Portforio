@@ -1,4 +1,4 @@
-import sisVentasDistribuidoraFenix from "../../assets/Sistema_Ventas_Distribuidora_Fenix.webp";
+
 
 export default function Projects({ projects }){
     return(
@@ -24,7 +24,7 @@ export default function Projects({ projects }){
                 <div className="h-40 w-full rounded-xl  mb-4 flex items-center justify-centerborder border-gray-200/50 dark:border-gray-800/50">
                   <figure className="  w-full h-full mx-auto py-auto overflow-hidden rounded-xl">
                     <img 
-                        src={sisVentasDistribuidoraFenix} 
+                        src={project.image} 
                         alt="Captura de pantalla del Dashboard del Sistema de ventas de Distribuidora Fenix" 
                         className="w-full h-full object-cover"
                     />

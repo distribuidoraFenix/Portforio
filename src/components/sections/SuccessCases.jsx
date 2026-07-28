@@ -28,7 +28,7 @@ export default function SuccessCases({ successCases }) {
                shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
           >
             <div>
-              <h3 className="text-xl font-bold mb-6 text-(--foreground)">
+              <h3 className="text-xl font-bold mb-6 text-(--foreground) text-center ">
                 {item.titulo}
               </h3>
 
